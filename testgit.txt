@@ -1,2 +1,21 @@
-testing git
-check 1
+##usage github
+
+git init
+##initialize git repository
+
+git add <file> or <.>
+
+##add files to index
+
+git remote add <origin name> <url of repositiry>
+##this is used to add a remote url, the <origin names> stands as an object that is linked to the url if the repositiry is present in github
+
+git  remote -v
+##checks the remote url
+
+git push <orin names> master
+
+
+########################to commit a new file###############
+git add <file>
+ git commit -m "fist commit"
